@@ -1,3 +1,5 @@
+[![Coverage Status](https://coveralls.io/repos/github/nopelius/SoftwareTestingAssignment2/badge.svg?branch=dev)](https://coveralls.io/github/nopelius/SoftwareTestingAssignment2?branch=dev)
+
 # Student template
 
 ## Purpose of this repository
@@ -11,5 +13,3 @@ and LICENSE file.
 Source code folder contains a separate license file that must **NOT** be removed under any circumstances!
 Removing this license file directly violates terms and conditions of the software under testing.
 Individuals who remove or modify the license file will also carry the consequences.
-
-[![Coverage Status](https://coveralls.io/repos/github/nopelius/SoftwareTestingAssignment2/badge.svg?branch=main)](https://coveralls.io/github/nopelius/SoftwareTestingAssignment2?branch=main)
