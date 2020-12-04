@@ -1,4 +1,4 @@
-[![Coverage Status](https://coveralls.io/repos/github/nopelius/SoftwareTestingAssignment2/badge.svg?branch=main)](https://coveralls.io/github/nopelius/SoftwareTestingAssignment2?branch=main)
+[![Coverage Status](https://coveralls.io/repos/github/nopelius/SoftwareTestingAssignment2/badge.svg?branch=other)](https://coveralls.io/github/nopelius/SoftwareTestingAssignment2?branch=other)
 
 # Course software testing assignment 2
 
