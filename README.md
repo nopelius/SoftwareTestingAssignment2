@@ -1,8 +1,8 @@
 [![Coverage Status](https://coveralls.io/repos/github/nopelius/SoftwareTestingAssignment2/badge.svg?branch=main)](https://coveralls.io/github/nopelius/SoftwareTestingAssignment2?branch=main)
 
-# Student template
+# Course software testing assignment 2
 
-## Purpose of this repository
+## Implementing tests 
 
 This is a project template for students participating in Software Testing course
 at Tampere University.
