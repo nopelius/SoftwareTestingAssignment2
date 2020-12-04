@@ -4,8 +4,7 @@
 
 ## Implementing tests 
 
-This is a project template for students participating in Software Testing course
-at Tampere University.
+Tests are located in test folder inside src.
 
 The repository only contains the source code that is under testing, `package.json` skeleton
 and LICENSE file.
