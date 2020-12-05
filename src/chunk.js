@@ -25,12 +25,17 @@ function chunk(array, size = 1) {
   if (!length || size < 1) {
     return []
   }
-  let index = 0
-  let resIndex = 0
-  const result = new Array(Math.ceil(length / size))
-
-  while (index < length) {
-    result[resIndex] = slice(array, index, (index += size))
+  let result = [];
+  let currentIndex = 0;
+  while(currentIndex < length){
+    let subArray = [];
+    for(let i=0; i<size; i++){
+      if(currentIndex < length){
+        subArray.push(array[currentIndex]);
+      }
+      currentIndex++;
+    }
+    result.push(subArray);
   }
   return result
 }
