@@ -1,4 +1,4 @@
-import isArgument from '../isArguments.js';
+import isArguments from '../isArguments.js';
 
 test('', () => {
     expect(isArguments(function() { return arguments }())).toBeTruthy();

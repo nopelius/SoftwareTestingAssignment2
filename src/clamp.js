@@ -26,6 +26,6 @@ function clamp(number, lower, upper) {
     number = number <= lower ? number : lower
   }
   return number
-}
+ } 
 
 export default clamp

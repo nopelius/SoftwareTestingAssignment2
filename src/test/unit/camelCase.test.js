@@ -1,4 +1,4 @@
-import camelCase from '../camelCase.js';
+import camelCase from '../../camelCase.js';
 
 test('Foo bar should be transformed into fooBar', () => {
     expect(camelCase('Foo Bar')).toBe('fooBar');
@@ -10,4 +10,8 @@ test('--foo-bar-- should be transformed into fooBar', () => {
 
 test('__FOO_BAR__ should be transformed into fooBar', () => {
     expect(camelCase('__FOO_BAR__')).toBe('fooBar');
-})
+});
+
+test('  FOO_BAR   should be transformed into fooBar', () => {
+    expect(camelCase('  FOO_BAR  ')).toBe('fooBar');
+});
