@@ -38,6 +38,6 @@ function chunk(array, size = 1) {
     result.push(subArray);
   }
   return result
-}
+ } 
 
 export default chunk
