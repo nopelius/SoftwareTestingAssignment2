@@ -1,9 +1,9 @@
 import isArguments from '../../isArguments.js';
 
-test('', () => {
+test('These are arguments', () => {
     expect(isArguments(function() { return arguments }())).toBeTruthy();
 });
 
-test('', () => {
+test('These are not', () => {
     expect(isArguments([1, 2, 3])).toBeFalsy();
 });

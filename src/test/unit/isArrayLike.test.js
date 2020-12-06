@@ -1,17 +1,17 @@
 import isArrayLike from '../../isArrayLike.js';
 
-test('', () => {
+test('Array of numbers is an array', () => {
     expect(isArrayLike([1, 2, 3])).toBeTruthy();
 });
 
-test('', () => {
+test('Document bodys children are an array', () => {
     expect(isArrayLike(document.body.children)).toBeTruthy();
 });
 
-test('', () => {
+test('abc is like an array - I guess...', () => {
     expect(isArrayLike('abc')).toBeTruthy();
 });
 
-test('', () => {
+test('Well function is not an array at least!', () => {
     expect(isArrayLike(Function)).toBeFalsy();
 });

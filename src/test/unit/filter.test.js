@@ -18,10 +18,10 @@ const moreActiveUsers = [
     { 'user': 'lisa', 'active': true }
 ];
 
-test('', () => {
+test('Barney should be recognized as the only active user in an array', () => {
     expect(filter(users, ({ active }) => active)).to.eql([{ 'user': 'barney', 'active': true }]);
 });
 
-test('', () => {
+test('When there are more active users they should be recognized as well!', () => {
     expect(filter(moreUsers, ({ active }) => active)).to.eql(moreActiveUsers);
 });
