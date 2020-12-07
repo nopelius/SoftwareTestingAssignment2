@@ -5,5 +5,5 @@ function square(n) {
 }
 
 test('[4, 8] is mapped squared', () => {
-    expect(map([4, 8], square).toBe([16, 64]));
+    expect(map([4, 8], square)).toStrictEqual([16, 64]);
 });

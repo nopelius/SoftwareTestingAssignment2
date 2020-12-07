@@ -1,17 +1,17 @@
 import isObject from'../../isObject.js';
 
 test('{} is Object', () => {
-    expect(isObject({}).toBeTruthy());
+    expect(isObject({})).toBe(true);
 });
 
 test('[1, 2, 3] is Object', () => {
-    expect(isObject([1, 2, 3]).toBeTruthy());
+    expect(isObject([1, 2, 3])).toBe(true);
 });
 
 test('Function is Object', () => {
-    expect(isObject(Function).toBeTruthy());
+    expect(isObject(Function)).toBe(true);
 });
 
 test('null is not Object', () => {
-    expect(isObject(null).toBeFalsy());
+    expect(isObject(null)).toBe(false);
 });
