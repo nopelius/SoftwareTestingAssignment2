@@ -35,6 +35,9 @@ function toString(value) {
   if (isSymbol(value)) {
     return value.toString()
   }
+  if (value === null) {
+    return ''
+  }
   const result = `${value}`
   return (result == '0' && (1 / value) == -INFINITY) ? '-0' : result
 }
