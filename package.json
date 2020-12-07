@@ -22,9 +22,7 @@
 
   "jest": {
     "testPathIgnorePatterns" : [
-      "/src/.internal/*",
-      "/src/memoize.js",
-      "/src/test/unit/memoize.test.js"
+      "/src/.internal/*"
     ]
   }
 }
