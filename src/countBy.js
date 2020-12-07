@@ -29,10 +29,13 @@ const hasOwnProperty = Object.prototype.hasOwnProperty
 function countBy(collection, iteratee) {
   return reduce(collection, (result, value, key) => {
     key = iteratee(value)
+    // Check if result has property key
     if (hasOwnProperty.call(result, key)) {
-      ++result[key]
+      // result has the value; increase the amount of the value by one
+      result[key] = result[key] + 2;
     } else {
       baseAssignValue(result, key, 0)
+      console.log("AAAAAAAAA");
     }
     return result
   }, {})
