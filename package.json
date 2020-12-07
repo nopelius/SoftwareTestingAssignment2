@@ -18,5 +18,13 @@
     "@babel/plugin-transform-modules-commonjs": "^7.12.1",
     "coveralls": "^3.1.0",
     "jest": "^26.6.3"
+  },
+
+  "jest": {
+    "testPathIgnorePatterns" : [
+      "/src/.internal/*",
+      "/src/memoize.js",
+      "/src/test/unit/memoize.test.js"
+    ]
   }
 }
